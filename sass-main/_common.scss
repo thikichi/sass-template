@@ -1,0 +1,32 @@
+#main {
+  width: 600px;
+  p {
+    margin: 0 0 1em;
+    em {
+      color: #f00;
+    }
+  }
+  small {
+    font-size: small;
+  }
+  span {
+    font-size: 12px;
+  }
+}
+
+.aaa {
+  text-align: center;
+}
+
+// メディアクエリのミクスイン
+body {
+  background-color: white;
+  @include media(lg) {
+    background-color: blue;
+  }
+}
+@include media(lg) {
+  body {
+    background-color: red;
+  }
+}
