@@ -1,21 +1,23 @@
 
 gulp sass
 
-ŠÄ‹
+ç›£è¦–
 gulp sass:watch
-ctrl + c ‚Å’†~
+ctrl + c ã§ä¸­æ­¢
 
-/* ˆê’èƒpƒ^[ƒ“‚ÌCSS‚ğ—ÊY‚·‚é */
-/* ˆê’èŠÔŠu‚Åƒ‚ƒWƒ…[ƒ‹‚ğì¬‚·‚é—á */
+/* ä¸€å®šãƒ‘ã‚¿ãƒ¼ãƒ³ã®CSSã‚’é‡ç”£ã™ã‚‹ */
+/* ä¸€å®šé–“éš”ã§ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã‚’ä½œæˆã™ã‚‹ä¾‹ */
 @for $i from 0 through 30 {
   .mt-#{$i * 5} {
     margin-top: #{$i * 5}px;
   }
 }
-—ájmt-50
+ä¾‹ï¼‰mt-50
 
 cd C:\xampp\htdocs\development\wp-tpl2\wp-content\themes\os-wp-theme\css\sass
 
 
-ƒRƒ“ƒpƒCƒ‹ƒ‚[ƒh
+ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ãƒ¢ãƒ¼ãƒ‰
 nested / compact / expanded / compressed
+
+test
