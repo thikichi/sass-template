@@ -9,3 +9,33 @@
     @content;
   }
 }
+
+// ===================================================================
+// 埋め込み動画のアスペクト比
+// ===================================================================
+
+@mixin rwd-iframe($width: 16, $height: 9) {
+  position: relative;
+  padding-top: percentage($height / $width);
+  >iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+// ===================================================================
+// IE11向けのハック
+// ===================================================================
+
+@mixin hack-ie11 {
+  @at-root {
+    @media all and (-ms-high-contrast: none) {
+      *::-ms-backdrop, & {
+        @content;
+      }
+    }
+  }
+}

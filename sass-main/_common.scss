@@ -30,3 +30,16 @@ body {
     background-color: red;
   }
 }
+
+// 動画のアスペクト比
+@include media(md) {
+  .movie {
+    @include rwd-iframe(640, 360);
+  }
+}
+
+.box {
+  @include hack-ie11 {
+    background-color: blue;
+  }
+}
