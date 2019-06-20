@@ -20,4 +20,8 @@ cd C:\xampp\htdocs\development\wp-tpl2\wp-content\themes\os-wp-theme\css\sass
 コンパイルモード
 nested / compact / expanded / compressed
 
-test
+------------------------------------------------------------
+Bourbon - Documentation -
+------------------------------------------------------------
+
+https://www.bourbon.io/docs/latest#clearfix
